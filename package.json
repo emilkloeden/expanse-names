@@ -1,0 +1,26 @@
+{
+  "name": "expanse-names",
+  "version": "1.0.0",
+  "description": "A little learning library based off of https://github.com/kentcdodds/starwars-names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha src/index.test.js -w "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilkloeden/expanse-names.git"
+  },
+  "keywords": [
+    "expanse"
+  ],
+  "author": "Emil Kloeden <emilkloeden@gmail.com> (https://github.com/emilkloeden/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emilkloeden/expanse-names/issues"
+  },
+  "homepage": "https://github.com/emilkloeden/expanse-names#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
