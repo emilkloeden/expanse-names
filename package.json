@@ -4,7 +4,7 @@
   "description": "A little learning library based off of https://github.com/kentcdodds/starwars-names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha test/index.test.js",
+    "test": "mocha test",
     "test:watch": "mocha test/index.test.js -w"
   },
   "repository": {
