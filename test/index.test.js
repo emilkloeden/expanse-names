@@ -2,9 +2,6 @@ const { expect } = require('chai')
 const expanse = require('../src/index')
 
 describe('expanse-names', function() {
-    it('should work!', function() {
-        expect(true).to.be.true;
-    })
     describe('all', function() {
         it('Should return a list of strings', function() {
             expect(expanse.all).to.satisfy(isArrayOfStrings)
