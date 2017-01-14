@@ -1,6 +1,6 @@
 {
   "name": "expanse-names",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A little learning library based off of https://github.com/kentcdodds/starwars-names",
   "main": "src/index.js",
   "scripts": {
