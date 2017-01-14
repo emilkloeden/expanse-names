@@ -1,5 +1,5 @@
 const { expect } = require('chai')
-const utils = require('./utils')
+const utils = require('../src/utils.js')
 const { randomFromArray } = utils
 
 describe('utils', function() {

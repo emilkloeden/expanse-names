@@ -1,5 +1,5 @@
 const names = require('./expanse-names.json')
-const randomFromArray = require('./utils').randomFromArray
+const { randomFromArray } = require('./utils.js')
 
 function random(number=undefined) {
     if (number === undefined) {

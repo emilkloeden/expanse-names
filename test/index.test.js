@@ -1,5 +1,5 @@
 const { expect } = require('chai')
-const expanse = require('./index')
+const expanse = require('../src/index')
 
 describe('expanse-names', function() {
     it('should work!', function() {
