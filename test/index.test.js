@@ -17,6 +17,10 @@ describe('expanse-names', function() {
         })
     })
     describe('random', function() {
+        it('should throw an error if a number <= 0 is passed', function() {
+            var error = expanse.random(-1)
+            expect(error).to.be.instanceof(Error)
+        })
         it('should return a string if no arguments are passed', function() {
             const randomItem = expanse.random()
             expect(randomItem).to.be.a('string')
