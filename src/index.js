@@ -10,7 +10,7 @@ function random(number=1) {
     }
     else {
         let randomNames = []
-        for (i = 0; i < number; i++) {
+        for (let i = 0; i < number; i++) {
             randomNames.push(randomFromArray(names))
         }
         return randomNames
