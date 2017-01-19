@@ -14,7 +14,6 @@ function random(number=undefined) {
     }
 }
 
-
 module.exports = {
     all: names,
     random: random
