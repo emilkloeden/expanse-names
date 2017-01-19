@@ -3,6 +3,10 @@
   "version": "0.0.0-semantically-released",
   "description": "A little learning library based off of https://github.com/kentcdodds/starwars-names",
   "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "commit": "git-cz",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
