@@ -14,7 +14,7 @@ function random() {
         return new Error("'number' argument of 'random' method must be greater than 0 (if passed)");
     } else {
         var randomNames = [];
-        for (i = 0; i < number; i++) {
+        for (var i = 0; i < number; i++) {
             randomNames.push(randomFromArray(names));
         }
         return randomNames;
