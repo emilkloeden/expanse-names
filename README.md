@@ -11,7 +11,7 @@ from https://egghead.io/courses/how-to-write-an-open-source-javascript-library
 ```npm install --save expanse-names```
 ## Require
 ```javascript
-const expanseNames = require('expanse-names);
+const expanseNames = require('expanse-names');
 ```
 ## 'all' property
 ```javascript
